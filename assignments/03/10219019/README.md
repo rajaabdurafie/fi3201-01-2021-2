@@ -35,8 +35,7 @@ Ganti nilai variabel NIM dengan data Anda, modifikasi kode yang diberikan di ata
 
 ### anwser 3
 Hasil modifikasi kode di atas adalah
-```
-```
+![image](https://user-images.githubusercontent.com/97995541/151107064-5553a08a-9e4f-4bb1-8636-4df5e179bc67.png)
 
 ## question 4
 Jelaskan dengan singkat hal yang dihasillkan oleh kode yang diberikan.
