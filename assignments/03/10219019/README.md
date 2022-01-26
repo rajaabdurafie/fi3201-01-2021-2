@@ -18,30 +18,28 @@ for x in NIM:
 Ganti nilai variabel NIM dengan data Anda, jalankan kode yang diberikan, dan tampilkan hasilnya.
 
 ### anwser 1
-Hasil kode di atas adalah
-
-```
+![Screenshot 2022-01-26 120158](https://user-images.githubusercontent.com/97995541/151107462-d2d99e0e-31f4-4cd9-8f38-9cfeba102347.png)
 
 ## question 2
 Ganti nilai variabel NIM dengan data Anda, modifikasi kode yang diberikan di atas dengan `s += char1`, jalankan dan tampilkan hasilnya.
 
 ### anwser 2
-Hasil modifikasi kode di atas adalah
-```
-```
+![Screenshot 2022-01-26 120235](https://user-images.githubusercontent.com/97995541/151107474-9935b228-ce36-41fc-a794-90bf994d8a6b.png)
+
 
 ## question 3
 Ganti nilai variabel NIM dengan data Anda, modifikasi kode yang diberikan di atas dengan `s += char2`, jalankan dan tampilkan hasilnya.
 
 ### anwser 3
 Hasil modifikasi kode di atas adalah
-![image](https://user-images.githubusercontent.com/97995541/151107064-5553a08a-9e4f-4bb1-8636-4df5e179bc67.png)
+![Screenshot 2022-01-26 120113](https://user-images.githubusercontent.com/97995541/151107483-f245031f-9605-46b0-b73a-93966d7fe84d.png)
+
 
 ## question 4
 Jelaskan dengan singkat hal yang dihasillkan oleh kode yang diberikan.
 
 ### answer 4
 Kode di atas berfungsi untuk
-+ ..
-+ ..
++ Memberikan ilustrasi setiap angka dalam NIM dalam bentuk persegi
++ 
 
