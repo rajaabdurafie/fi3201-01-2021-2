@@ -40,6 +40,5 @@ Jelaskan dengan singkat hal yang dihasillkan oleh kode yang diberikan.
 
 ### answer 4
 Kode di atas berfungsi untuk
-+ Memberikan ilustrasi setiap angka dalam NIM dalam bentuk persegi
-+ 
++ Memberikan ilustrasi setiap angka dalam NIM dalam bentuk persegi yang terisi dan tidak sesuai dengan angka dari setiap NIM yang dimiliki
 
