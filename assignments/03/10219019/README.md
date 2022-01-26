@@ -19,7 +19,7 @@ Ganti nilai variabel NIM dengan data Anda, jalankan kode yang diberikan, dan tam
 
 ### anwser 1
 Hasil kode di atas adalah
-[https://onecompiler.com/python/3xrg55dnw](3xrg55dnw)
+
 ```
 
 ## question 2
