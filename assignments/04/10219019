@@ -1,3 +1,7 @@
+# assignment 04
+Terdapat kode Python berikut
+
+```python
 """
 Matplotlib Animation Example
 
@@ -11,7 +15,6 @@ Please feel free to use and modify this, but keep the above information. Thanks!
 import numpy as np
 from matplotlib import pyplot as plt
 from matplotlib import animation
-from matplotlib.animation import FuncAnimation 
 
 # First set up the figure, the axis, and the plot element we want to animate
 fig = plt.figure()
@@ -24,17 +27,19 @@ def init():
     return line,
 
 # animation function.  This is called sequentially
-def animate(t):
-    t = 0.01*t
+def animate(i):
     x = np.linspace(0, 2, 1000)
-    y = np.sin(np.pi * x) * np.cos(np.pi * t)
-    #y = np.sin(np.pi * (x-t)) #T = 2, Lambda = 2
+		
+		# ---- equation of y ----
+		
+		# -----------------------
+		
     line.set_data(x, y)
     return line,
 
 # call the animator.  blit=True means only re-draw the parts that have changed.
 anim = animation.FuncAnimation(fig, animate, init_func=init,
-                               frames=200, interval=200, blit=True)
+                               frames=200, interval=20, blit=True)
 
 # save the animation as an mp4.  This requires ffmpeg or mencoder to be
 # installed.  The extra_args ensure that the x264 codec is used, so that
@@ -52,12 +57,12 @@ anim = animation.FuncAnimation(fig, animate, init_func=init,
 # modification from Sparisoma Viridi 2022-03-29
 option = 1
 
-if option == 1:
-    writergif = animation.PillowWriter(fps=30)
-    anim.save('basic_animation1.gif', writer=writergif)
-    #anim.save('basic_animation1.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+if option == 0:
+	writergif = animation.PillowWriter(fps=30)
+	anim.save('basic_animation.gif', writer=writergif)
+# anim.save('basic_animation.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 else:
-    plt.show()
+	plt.show()
 
 
 ```
@@ -68,7 +73,7 @@ Baca penjelasan mengenai kode di atas pada <https://dudung.github.io/bugx/0026/>
 
 ### answer 1
 Apakah penjelasan kode dia atas sudah dibaca atau hadir pada kuliah?
-Sudah
+```
 ```
 
 ## question 2
@@ -76,10 +81,10 @@ Modifikasi program yang diberikan sehingga dapat menggambarkan gelombang yang me
 
 ### answer 2
 Potongan kode yang perlu disisipkan adalah
-#y = np.sin(np.pi * (x-t))
+```
 ```
 dan hasil berkas gifnya adalah \
-![gif file from simulation wave to right](http://localhost:8888/view/basic_animation1.gif)
+![gif file from simulation wave to right]()
 
 
 ## question 3
